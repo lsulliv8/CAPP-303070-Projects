@@ -1,0 +1,16 @@
+body {font-family:sans-serif;background-image:url('Dim2.png');}
+
+h1 {font-family:serif; color:green}
+h2 {font-family:serif; color:green}
+h3 {font-family:serif; color:green}
+
+blockquote {background:linear-gradient(to bottom, red 0%,orange 50%,yellow 51%,green 100%); padding:8px 50px;}
+
+img {float:right; margin-left:.5em; border:3px green;border-radius:25px;}
+
+img {float: right; margin-left:.5em;border:3px solid green; border-radius:25px; box-shadow: 5px 5px #888888; }
+
+img {
+    /*box-shadow:3px 3px 5px red;*/}
+
+.bonsail {float:right; margin-left:1em;border:3px solid; border-color: green; border-radius 20px; box-shadow: 5px 5px #888888; }
