@@ -1,0 +1,11 @@
+@media screen, projection
+img {
+max-width: 100%; }
+
+@media only screen and (width: 400px)
+nav{ float: left; width: 30%; border:1px solid green}
+main{ float: left; width: 70%; border:1px solid red}
+
+@media only screen and (width: 800px)
+img {float: right; max-width: 40%;}
+main {float: right; max-width: 50%;}
