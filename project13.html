@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lauren Sullivan </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#box {width: 100px;
+height: 100px;
+background-color: pink;
+}
+</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46092843-1', 'nd.edu');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+
+<h2>One</h2>
+<button id="one">Alert</button>
+<script>
+document.getElementById('one').addEventListener("click", function(e){
+	alert('You clicked a button');
+});
+</script>
+
+<h2>Two</h2>
+<button id="two">Prompt</button>
+<script>
+document.getElementById('two').addEventListener("click", function(e){
+	var input_name = prompt('What is your name?');
+	for(i = 0;i <5;i++) {
+		console.log(input_name);
+		}
+});
+</script>
+
+<h2>Three</h2>
+<script>
+	var rainbow_array = ['Red<br>', 'Orange<br>', 'Yellow<br>', 'Green<br>', 'Blue<br>', 'Indigo<br>', 'Violet<br>'];
+	for (i=0; i < rainbow_array.length; i++) {
+	document.write(rainbow_array[i]);
+	}
+	</script>
+
+<h2>Four</h2>
+<div id="box"></div>
+<script>
+var box = document.getElementById('box');
+box.addEventListener("mouseenter", function(){
+		console.log('Mouse has entered');
+});
+box.addEventListener("mouseleave", function() {
+		console.log('Mouse has exited');
+});
+
+</script>
+
+<h2>Five</h2>
+
+<input type="text" id="first"><br>
+<input type="text" id="second"><br>
+<button id="another_button">Check</button>
+
+<script>
+	var another_button = document.getElementById('another_button');
+	another_button.addEventListener("click", function(){
+	
+	var first = document.getElementById('first');
+	var second = document.getElementById('second');
+	
+	if(document.getElementById('first').value == document.getElementById('second').value){
+		alert('True');
+	} else {
+		alert('False');
+		}
+		
+		});
+		
+	</script>
+
+</body>
+</html>
+

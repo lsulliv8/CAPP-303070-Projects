@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lauren Sullivan</title>
+</head>
+<style>
+#box{
+width:200px;
+height:400px;
+background-color;red
+}
+</style>
+
+<body>
+<header><h1>Project 13</h1></header>
+
+<h2> One</h2>
+<button id="one">Alert</button>
+<script>
+document.getElementById('one').addEventLIstener(click", function(){
+  alert ('You clicked a button');
+});
+</script>
+
+<h2>Two</h2>
+<button id="two">prompt</button>
+<script>
+document.getELementByID('two").addEventListener("click", function(){
+  var input_name = prompt('What is your name?');
+  for (i=0; i<5, i++) {
+   console.log(input_name);
+}
+});
+</script>
+
+<div id="box"></div>
+<script>
+var box = document.getElementById('box');
+box.addEventListener("", function (){
+//do your output
+});
+box.addEventListener("",fucntion (){
+//do your output
+});
+
+
+
+
