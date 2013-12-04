@@ -1,0 +1,11 @@
+body {font-family:sans-serif;}
+
+h1 {font-family:serif; color:green}
+h2 {font-family:serif; color:green}
+h3 {font-family:serif; color:green}
+
+blockquote {background-color:rgba(255,0,0,0.5);}
+
+img {float:right; margin-left:.5em; border:3px green}
+
+img {border:3px solid green}
